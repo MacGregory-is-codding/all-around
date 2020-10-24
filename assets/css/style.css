@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: sans-serif;
+}
+
+html {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+.canvas-parent {
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto 0;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.canvas {
+    width: 1000px;
+    height: 500px;
+    display: none;
+}
+
+#start-button {
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    margin: 10px auto 0;
+    font-size: 40px;
+    animation: 0.3s;;
+}
+
+#start-button:hover {
+    opacity: 0.9;
+}
